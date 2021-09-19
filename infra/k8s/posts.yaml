@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: postservice
+spec:
+  containers:
+    - name: postservice
+      image: postservice:0.0.1
